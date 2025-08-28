@@ -19,11 +19,9 @@
    `;
     document.head.appendChild(style);
 
-    const { createApp } = window.Vue;
+    const { createApp, ref } = window.Vue;
     const app = createApp({
         setup() {
-            import { ref } from 'vue'
-
             const token = 'blablah';
             const ids = [62008, 61765, 61765];
         },
