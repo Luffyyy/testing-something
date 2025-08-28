@@ -29,7 +29,7 @@
             <div style="display: flex; flex-direction: column; gap: 0.25rem;">
                 <a
                   v-for="id of ids"
-                  :href="\`https://info.braude.ac.il/yedion/fireflyweb.aspx?PRGNAME=LOOK_FOR_NOSE&ARGUMENTS=-N206538449,'-N${window.someToken},-N${id}\`"
+                  :href="\`https://info.braude.ac.il/yedion/fireflyweb.aspx?PRGNAME=LOOK_FOR_NOSE&ARGUMENTS=-N206538449,'-N\${window.someToken},-N\${id}\`"
                   :key="id"
                 >
                     Course {{id}}
